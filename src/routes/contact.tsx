@@ -36,7 +36,7 @@ function Contact() {
               47300 Villeneuve-sur-Lot
               <br />
               <a
-                href="https://www.google.com/maps/place/?q=place_id:ChIJh7M9IvIHqxIRLCUfAujYAqk"
+                href="https://maps.google.com/?q=34+Place+Lafayette,+47300+Villeneuve-sur-Lot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gold hover:underline text-sm inline-block mt-2"
@@ -82,7 +82,7 @@ function Contact() {
           <div className="rounded-lg overflow-hidden ring-1 ring-gold/30 shadow-2xl min-h-[500px]">
             <iframe
               title="Carte — La Nuova Cantina"
-              src="https://www.google.com/maps?q=place_id:ChIJh7M9IvIHqxIRLCUfAujYAqk&output=embed"
+              src="https://www.google.com/maps?q=34+Place+Lafayette,+47300+Villeneuve-sur-Lot&output=embed"
               className="w-full h-full border-0"
               loading="lazy"
             />

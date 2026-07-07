@@ -177,7 +177,7 @@ function Home() {
           <div className="rounded-lg overflow-hidden ring-1 ring-border shadow-lg aspect-square md:aspect-auto md:h-full min-h-[420px]">
             <iframe
               title="La Nuova Cantina - Google Maps"
-              src="https://www.google.com/maps?q=place_id:ChIJh7M9IvIHqxIRLCUfAujYAqk&output=embed"
+              src="https://www.google.com/maps?q=34+Place+Lafayette,+47300+Villeneuve-sur-Lot&output=embed"
               className="w-full h-full border-0"
               loading="lazy"
             />
