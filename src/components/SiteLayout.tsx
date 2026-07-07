@@ -17,7 +17,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
       <header className="sticky top-0 z-40 bg-navy-deep/95 backdrop-blur border-b border-gold/20">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3 group">
-            <img src={logoAsset.url} alt="La Nuova Cantina" className="h-14 w-14 rounded-full object-cover ring-1 ring-gold/40" />
+            <img src={logoAsset.url} alt="La Nuova Cantina" className="h-14 w-auto object-contain" />
             <div className="hidden sm:block leading-tight">
               <div className="script-title text-2xl">La Nuova</div>
               <div className="text-cream text-[0.65rem] tracking-[0.35em] uppercase">Cantina</div>
@@ -84,7 +84,7 @@ export function SiteLayout({ children }: { children: ReactNode }) {
         <div className="mx-auto max-w-6xl px-6 py-14 grid gap-10 md:grid-cols-4">
           <div className="md:col-span-2">
             <div className="flex items-center gap-4">
-              <img src={logoAsset.url} alt="La Nuova Cantina" className="h-16 w-16 rounded-full ring-1 ring-gold/40" />
+              <img src={logoAsset.url} alt="La Nuova Cantina" className="h-16 w-auto object-contain" />
               <div>
                 <div className="script-title text-3xl">La Nuova Cantina</div>
                 <div className="text-cream/60 text-xs tracking-[0.3em] uppercase mt-1">Pizzeria · Trattoria</div>
