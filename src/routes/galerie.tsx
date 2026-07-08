@@ -1,11 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import pizzaSalmone from "@/assets/pizza-salmone.asset.json";
-import pizzaBianca from "@/assets/pizza-bianca.asset.json";
-import pizzaMortadella from "@/assets/pizza-mortadella.asset.json";
-import gnocchi from "@/assets/gnocchi.asset.json";
-import paccheri from "@/assets/paccheri.asset.json";
-import fourAntipasti from "@/assets/four-antipasti.asset.json";
 
 export const Route = createFileRoute("/galerie")({
   head: () => ({
@@ -14,19 +8,19 @@ export const Route = createFileRoute("/galerie")({
       { name: "description", content: "Photos de nos pizzas au four à bois, plats et four traditionnel. Trattoria italienne à Villeneuve-sur-Lot." },
       { property: "og:title", content: "Galerie — La Nuova Cantina" },
       { property: "og:description", content: "Pizzas, pâtes fraîches, antipasti et four à bois." },
-      { property: "og:image", content: fourAntipasti.url },
+      { property: "og:image", content: "/images/four-antipasti.jpg" },
     ],
   }),
   component: Galerie,
 });
 
 const items = [
-  { src: pizzaSalmone.url, label: "Pizza Salmone", size: "tall" },
-  { src: fourAntipasti.url, label: "Forno a legna & antipasti", size: "wide" },
-  { src: pizzaBianca.url, label: "Pizza Bianca", size: "sq" },
-  { src: gnocchi.url, label: "Gnocchi al ragù", size: "sq" },
-  { src: paccheri.url, label: "Paccheri alla Norma", size: "tall" },
-  { src: pizzaMortadella.url, label: "Pistacchio & Mortadella", size: "wide" },
+  { src: "/images/pizza-salmone.jpg", label: "Pizza Salmone", size: "tall" },
+  { src: "/images/four-antipasti.jpg", label: "Forno a legna & antipasti", size: "wide" },
+  { src: "/images/pizza-bianca.jpg", label: "Pizza Bianca", size: "sq" },
+  { src: "/images/gnocchi.jpg", label: "Gnocchi al ragù", size: "sq" },
+  { src: "/images/paccheri.jpg", label: "Paccheri alla Norma", size: "tall" },
+  { src: "/images/pizza-mortadella.jpg", label: "Pistacchio & Mortadella", size: "wide" },
 ];
 
 function Galerie() {

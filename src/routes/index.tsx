@@ -1,12 +1,13 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
 import { MapPin, Phone, Clock, ArrowRight, Flame } from "lucide-react";
-import pizzaSalmone from "@/assets/pizza-salmone.asset.json";
-import pizzaBianca from "@/assets/pizza-bianca.asset.json";
-import pizzaMortadella from "@/assets/pizza-mortadella.asset.json";
-import gnocchi from "@/assets/gnocchi.asset.json";
-import paccheri from "@/assets/paccheri.asset.json";
-import fourAntipasti from "@/assets/four-antipasti.asset.json";
+
+const pizzaSalmone = { url: "/images/pizza-salmone.jpg" };
+const pizzaBianca = { url: "/images/pizza-bianca.jpg" };
+const pizzaMortadella = { url: "/images/pizza-mortadella.jpg" };
+const gnocchi = { url: "/images/gnocchi.jpg" };
+const paccheri = { url: "/images/paccheri.jpg" };
+const fourAntipasti = { url: "/images/four-antipasti.jpg" };
 
 export const Route = createFileRoute("/")({
   head: () => ({
